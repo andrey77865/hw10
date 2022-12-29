@@ -41,7 +41,6 @@ if __name__ == '__main__':
     name = Name('Bill')
     phone = Phone('1234567890')
     rec = Record(name, phone)
-    rec.delete()
     ab = AddressBook()
     ab.add_record(rec)
 
